@@ -1,1 +1,67 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: green;
+}
+
+.carta {
+  width: 400px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.valor {
+  font-size: 140px;
+  font-weight: bold;
+  display: flex;
+}
+
+.palo {
+  font-size: 100px;
+  display: flex;
+  margin-top: 140px;
+  margin-left: 470px;
+}
+
+.palo1 {
+  font-size: 100px;
+  display: flex;
+  margin-bottom: 140px;
+  margin-right: 1040px;
+  transform: rotate(180deg);
+}
+
+.btn_generar {
+  background-color: deepskyblue;
+  height: 50px;
+  width: 100px;
+  justify-content: center;
+  /* margin-left: 100px; */
+  margin-top: 750px;
+}
+
+.boton {
+  display: flex;
+  justify-content: end;
+}
+p {
+  padding: top 10px;
+}
+.alto {
+  font-size: x-large;
+  color: black;
+}
+.ancho {
+  font-size: x-large;
+  color: black;
+}
